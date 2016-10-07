@@ -1,0 +1,54 @@
+{  
+   "scientistdetails":[  
+      {  
+         "name":"Sir Isaac Newton",
+         "url":"assets/pic1.jpg",
+         "description":"Sir Isaac Newton (1642-1726) Newton was a polymath who made investigations into a whole range of subjects including mathematics, optics, physics, and astronomy. In his Principia Mathematica, published in 1687, he laid the foundations for classical mechanics, explaining law of gravity and the Laws of Motion."
+      },
+      {  
+         "name":"Louis Pasteur",
+         "url":"assets/pic2.jpg",
+         "description":"Louis Pasteur (1822 – 1895) Contributed greatly towards the advancement of medical sciences developing cures for rabies, anthrax and other infectious diseases. Also enabled process of pasteurisation to make milk safer to drink. Probably saved more lives than any other person."
+      },
+      {  
+         "name":"Galileo",
+         "url":"assets/pic3.jpg",
+         "description":"Galileo (1564 – 1642) Creating one of the first modern telescope, Galileo revolutionised our understanding of the world successfully proving the earth revolved around the sun and not the other way around. His work Two New Sciences laid ground work for science of Kinetics and strength of materials."
+      },
+      {  
+         "name":"Marie Curie",
+         "url":"assets/pic4.jpg",
+         "description":"Marie Curie (1867 – 1934) Polish physicist and chemist. Discovered radiation and helped to apply it in the field of X ray. She won Nobel Prize in both Chemistry and Physics"
+      },
+      {  
+         "name":"Albert Einstein",
+         "url":"assets/pic5.jpg",
+         "description":"Albert Einstein (1879 – 1955) Revolutionised modern physics with his general theory of relativity. Won Nobel Prize in Physics (1921) for his discovery of the Photoelectric effect, which formed basis of Quantum Theory."
+      },
+      {  
+         "name":"Charles Darwin",
+         "url":"assets/pic6.jpg",
+         "description":"Charles Darwin (1809 – 1882) Developed theory of evolution against a backdrop of disbelief and scepticism. Collected evidence over 20 years, and published conclusions in On the Origin of Species (1859)."
+      },
+      {  
+         "name":"Otto Hahn",
+         "url":"assets/pic7.jpg",
+         "description":"Otto Hahn (1879-1968) – German chemist who discovered nuclear fission (1939). Pioneering scientist in the field of radio-chemistry. Discovered radio-active elements and nuclear isomerism (1921). Awarded Nobel Prize for Chemistry (1944)"
+      },
+      {  
+         "name":"Nikola Tesla",
+         "url":"assets/pic8.jpg",
+         "description":"Nikola Tesla (1856 –1943) – Worked on electro-magnetism and AC current. Credited with many patents from electricity to radio transmission. Played a key role in the development of modern electricity."
+      },
+      {  
+         "name":"James Clerk Maxwell",
+         "url":"assets/pic9.jpg",
+         "description":"James Clerk Maxwell (1831-1879) – Made great strides in understanding electro-magnetism. His research in electricity and kinetics, laid foundation for quantum physics. Einstein said of Maxwell, “The work of James Clerk Maxwell changed the world forever.”"
+      },
+      {  
+         "name":"Aristotle",
+         "url":"assets/pic10.jpg",
+         "description":"Aristotle (384BC – 322BC) Great early Greek scientist who made many researches in the natural sciences including botany, zoology, physics, astronomy, chemistry, and meteorology, geometry"
+      }
+   ]
+}

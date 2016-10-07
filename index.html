@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Assignment5</title>
+	<meta charset="UTF-8">
+	<script src="node_modules/angular\angular.min.js"></script>
+	<script src="node_modules/angular-ui-router\release\angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<style type="text/css">
+	h1{
+		color: green;
+		text-align: center;
+
+	}
+	.viewdiv{
+		margin:40px 200px;
+	}
+	ul li img{
+		width: 50px;
+		margin:0 20px;
+	}
+	.details img{
+		width: 300px;
+		float: left;
+	}
+	h2{
+		font-size: 25px;
+		color: blue;
+		margin-left: 40px;
+	}
+	ul li{
+		list-style-type: none;
+		margin: 10px 0;
+		border-bottom: 1px dashed #000;
+	}
+	ul li a{
+		text-decoration:none;
+		color: black;
+		
+	}
+	p{
+		line-height: 25px;
+		font-size: 18px;
+		width: 400px;
+		float: left;
+		margin:100px 50px;
+	}
+	.clear{
+		clear: both;
+	}
+	.details a{
+		text-align: center;
+		font-size: 22px;
+		font-weight: bold;
+		color: red;
+		margin: 50px;
+	}
+
+</style>
+<body>
+	<h1>Top 10 Greatest Scientists</h1>
+	<div ui-view ng-controller="firstController" class="viewdiv">
+	 	<ul>
+	 		<li ng-repeat='i in data.scientistdetails'>
+	  			<a ui-sref="details({key:$index})"><img src="{{i.url}}">{{i.name}}</a>
+	  		</li>
+	 
+	 	</ul>
+	</div>
+</body>
+</html>
